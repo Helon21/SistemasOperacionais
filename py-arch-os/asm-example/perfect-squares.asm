@@ -1,3 +1,4 @@
+data: .data 10
 sep: .asciiz " -> "
 str_end: .asciiz "perfect-squares ended"
 
@@ -49,4 +50,3 @@ end:
 	syscall
 	mov r0, 0
 	syscall
-data: .data 10
